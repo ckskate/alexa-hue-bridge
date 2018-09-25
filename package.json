@@ -1,0 +1,24 @@
+{
+  "name": "alexa-hue-bridge",
+  "version": "1.0.0",
+  "description": "Runs on a Raspberry Pi to bring the deeper Alexa skill features normally only available on later bridges to the v1 Philips Hue bridge",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ckskate/alexa-hue-bridge.git"
+  },
+  "author": "Connor Killion",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ckskate/alexa-hue-bridge/issues"
+  },
+  "homepage": "https://github.com/ckskate/alexa-hue-bridge#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "node-hue-api": "^2.4.3"
+  }
+}
